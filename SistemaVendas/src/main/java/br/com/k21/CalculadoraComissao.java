@@ -11,7 +11,7 @@ public class CalculadoraComissao {
 
 	public static double calcular(double venda) {
 		if (venda <= 10000)
-			return Math.floor((venda * 0.05) * 100) / 100 + 0.001;
+			return Math.floor((venda * 0.05) * 100) / 100;
 
 		return venda * 0.06;
 	}

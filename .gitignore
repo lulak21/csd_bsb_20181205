@@ -55,6 +55,7 @@ local.properties
 
 # sbteclipse plugin
 .target
+SistemaVendas/target
 
 # Tern plugin
 .tern-project
